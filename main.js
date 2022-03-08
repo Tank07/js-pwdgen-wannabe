@@ -10,6 +10,8 @@ let password = `${nomeUtente}${cognomeUtente}${coloreUtente}${numeroUtente}`;
 
 console.log(password);
 
+const element = document.getElementsByTagName("p");;
+
 document.getElementById("contenitore_password").innerHTML = password;
 
 document.getElementById("contenitore_password").style.color = "magenta";
