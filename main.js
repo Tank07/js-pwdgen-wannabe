@@ -6,11 +6,9 @@ const coloreUtente = prompt("Qual è il tuo colore preferito ?");
 
 const numeroUtente = prompt("Qual è il tuo numero fortunato ?");
 
-let password = `${nomeUtente}${cognomeUtente}${coloreUtente}${numeroUtente}`;
+let password = ` La tua password indecifrabile è: ${nomeUtente}${cognomeUtente}${coloreUtente}${numeroUtente}`;
 
 console.log(password);
-
-const element = document.getElementsByTagName("p");;
 
 document.getElementById("contenitore_password").innerHTML = password;
 
