@@ -11,3 +11,5 @@ let password = `${nomeUtente}${cognomeUtente}${coloreUtente}${numeroUtente}`;
 console.log(password);
 
 document.getElementById("contenitore_password").innerHTML = password;
+
+document.getElementById("contenitore_password").style.color = "magenta";
